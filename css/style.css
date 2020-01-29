@@ -1,0 +1,35 @@
+.container {
+    width: 90%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*="col-"] {
+    padding: 10px;
+}
+
+.content {
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
